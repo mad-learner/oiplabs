@@ -1,6 +1,6 @@
 import About from '../components/About';
 import Services from '../components/Services';
-import Contact from '../components/Contact';
+//import Contact from '../components/Contact';
 
 function Main() {
   return (
