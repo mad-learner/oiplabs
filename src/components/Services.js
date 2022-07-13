@@ -31,19 +31,43 @@ function Services() {
                         }}>
                             <Card title="Communication" img="communtion.png" text="Magma India is a community of collaborators who are passionate towards cultivating an environment of open, collaborative and integrated ecosystem." />
                         </div>
-                        <div className="col-md-4 mb-2 ">
-                            <Card title="Security" img="security.png" text="Cryptography has evolved to address the encryption and decryption of private communications through the internet and computer systems" />
+                        <div className="col-md-4 mb-2" onClick={() => {
+                            setModalOpen(true);
+                            setModalImage("robotics.png");
+                            setModalTitle("Robotics");
+                            setModalContent("Robots are widely used in such industries as automobile manufacture to perform simple repetitive tasks, and in industries where work must be performed in environments hazardous to humans.");
+                            setModalLink("https://robotics.oiplabs.org/")
+                        }}>
+                            <Card title="Robotics" img="robotics.png" text="Robots are widely used in such industries as automobile manufacture to perform simple repetitive tasks, and in industries where work must be performed in environments hazardous to humans." />
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-4 mb-2">
+                        <div className="col-md-4 mb-2" onClick={() => {
+                            setModalOpen(true);
+                            setModalImage("icons8-virtual-reality-400.png");
+                            setModalTitle("AltReality");
+                            setModalContent("WebAR (or web-based augmented reality) is a digital technology that allows you to easily share AR experiences in the most frictionless way possible i.e. on the browser itself— no app installation required. Below given are 3 easy steps to experience AR on web.");
+                            setModalLink("http://altrealitylabs.org/")
+                        }} >
                             <Card title="AltReality" img="icons8-virtual-reality-400.png" text="WebAR (or web-based augmented reality) is a digital technology that allows you to easily share AR experiences in the most frictionless way possible i.e. on the browser itself— no app installation required. Below given are 3 easy steps to experience AR on web." />
                         </div>
-                        <div className="col-md-4 mb-2">
+                        <div className="col-md-4 mb-2" onClick={() => {
+                            setModalOpen(true);
+                            setModalImage("blockchain-technology.png");
+                            setModalTitle("Blockchain");
+                            setModalContent("Blockchain advances empower direct exchanges in a solid, straightforward way, baking trust into frameworks that work with the productivity of a distributed organization.");
+                            setModalLink("https://blockchain.oiplabs.org/")
+                        }} >
                             <Card title="Blockchain" img="blockchain-technology.png" text="Blockchain advances empower direct exchanges in a solid, 
                             straightforward way, baking trust into frameworks that work with the productivity of a distributed organization." />
                         </div>
-                        <div className="col-md-4 mb-2">
+                        <div className="col-md-4 mb-2" onClick={() => {
+                            setModalOpen(true);
+                            setModalImage("quntam.png");
+                            setModalTitle("Quantum Computing");
+                            setModalContent("Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.");
+                            setModalLink("https://quantum.oiplabs.org/")
+                        }} >
                             <Card title="Quantum Computing" img="quntam.png" text="Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers." />
                         </div>
                     </div>
