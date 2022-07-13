@@ -11,9 +11,9 @@ function About() {
           <div className="col-md-6">
             <h2 className="main-title about-h2">ABOUT</h2>
             <p className="main-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              quam purus, ullamcorper id risus eu, consectetur consectetur
-              purus. Etiam sagittis in eros ac sollicitudin.
+             OIPLABS To provide a neutral environment to foster interoperability, standards conformance, and development for the interconnected world, 
+             while attracting students to and preparing them for careers in cutting-edge technology.
+             To create an interoperable world by enabling the best engineers, entrepreneurs, and technology.
             </p>
           </div>
         </div>

@@ -32,18 +32,19 @@ function Services() {
                             <Card title="Communication" img="communtion.png" text="Magma India is a community of collaborators who are passionate towards cultivating an environment of open, collaborative and integrated ecosystem." />
                         </div>
                         <div className="col-md-4 mb-2 ">
-                            <Card title="Security" img="security.png" text="With supporting text below as a natural lead-in to additional content." />
+                            <Card title="Security" img="security.png" text="Cryptography has evolved to address the encryption and decryption of private communications through the internet and computer systems" />
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-4 mb-2">
-                            <Card title="AltReality" img="icons8-virtual-reality-400.png" text="With supporting text below as a natural lead-in to additional content." />
+                            <Card title="AltReality" img="icons8-virtual-reality-400.png" text="WebAR (or web-based augmented reality) is a digital technology that allows you to easily share AR experiences in the most frictionless way possible i.e. on the browser itself— no app installation required. Below given are 3 easy steps to experience AR on web." />
                         </div>
                         <div className="col-md-4 mb-2">
-                            <Card title="Blockchain" img="blockchain-technology.png" text="With supporting text below as a natural lead-in to additional content." />
+                            <Card title="Blockchain" img="blockchain-technology.png" text="Blockchain advances empower direct exchanges in a solid, 
+                            straightforward way, baking trust into frameworks that work with the productivity of a distributed organization." />
                         </div>
                         <div className="col-md-4 mb-2">
-                            <Card title="Quantum Computing" img="quntam.png" text="With supporting text below as a natural lead-in to additional content." />
+                            <Card title="Quantum Computing" img="quntam.png" text="Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers." />
                         </div>
                     </div>
                 </div>
